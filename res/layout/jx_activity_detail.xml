@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="5dp"
+    android:orientation="vertical"
+    tools:context=".PushActivity" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/dtl_header"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:padding="2dp"
+            android:scaleType="fitXY"         
+            android:src="@drawable/ic_launcher"
+            />
+
+        <TextView
+            android:id="@+id/dtl_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/dtl_header"
+            android:text="LLL"
+            android:textSize="25sp" />
+        <TextView 
+            android:id="@+id/dtl_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dtl_title"
+            android:layout_toRightOf="@id/dtl_header"
+            android:textColor="#c0c0c0"
+            android:text="2014-12-1-1 17:48"
+            />
+    </RelativeLayout>
+    
+    <ImageView 
+         android:layout_marginTop="20dp"
+         android:layout_gravity="center_horizontal"
+         android:id="@+id/dtl_bigimg"
+         android:layout_width="300dp"
+         android:layout_height="200dp"
+         android:src="@drawable/ic_launcher"
+         android:scaleType="fitXY"
+         />
+    
+    <TextView 
+        android:id="@+id/dtl_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="LLL"
+        android:textSize="18sp"
+        />
+    
+    <TextView 
+        android:id="@+id/dtl_more"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#489cfa"
+        android:text="查看更多"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>

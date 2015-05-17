@@ -1,0 +1,55 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:interpolator="@android:interpolator/accelerate_cubic"  
+            android:valueFrom="0"  
+            android:valueTo="1"  
+            android:valueType="floatType"  
+            android:propertyName="alpha"  
+            android:duration="900"/>
+     
+    <!-- <translate 
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:fromXDelta="100%p"
+
+   android:toXDelta="0"
+
+   android:interpolator="@android:anim/decelerate_interpolator"
+
+   android:duration="300"/> -->
+<!-- <alpha
+       android:interpolator=
+                     "@android:interpolator/accelerate_cubic"
+      android:fromAlpha="1"
+      android:toAlpha="0"
+      android:duration="2000"
+      /> --> -->
+<!-- <scale  
+          android:interpolator=
+                     "@android:interpolator/accelerate_cubic"
+          android:fromXScale="1"
+          android:toXScale="0"
+          android:fromYScale="1"
+          android:toYScale="0"
+          android:pivotX="50%"
+          android:pivotY="50%"
+          android:fillAfter="false"
+          android:duration="700" />   -->
+  <!-- <translate
+	android:fromYDelta="30"
+	android:toYDelta="300"
+	android:duration="700"
+/> -->
+<!-- translate 位置转移动画效果
+        整型值:
+            fromXDelta 属性为动画起始时 X坐标上的位置    
+            toXDelta   属性为动画结束时 X坐标上的位置
+            fromYDelta 属性为动画起始时 Y坐标上的位置
+            toYDelta   属性为动画结束时 Y坐标上的位置
+            注意:
+                     没有指定fromXType toXType fromYType toYType 时候，
+                     默认是以自己为相对参照物             
+        长整型值：
+            duration  属性为动画持续时间
+            说明:   时间以毫秒为单位
+--><!-- 
+  <rotate/> -->
+</set>

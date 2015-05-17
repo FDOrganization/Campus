@@ -1,0 +1,86 @@
+<RelativeLayout
+    android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:focusable="false"
+	>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/main_height"
+        android:orientation="horizontal"
+        android:background="#99FF99"
+        android:layout_alignParentTop="true"
+        android:id="@+id/fragmnt_gridview_Head"
+        >
+    <TextView
+        android:id="@+id/fragment_gridview_back"
+        android:gravity="center"
+        android:layout_height="fill_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:text="返回"  
+        android:layout_margin="0dp"
+        />
+    <TextView 
+        android:layout_height="fill_parent"
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:layout_margin="0dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:text="图库浏览器"
+        />
+    <TextView
+    android:id="@+id/fragment_pinglun_add_pinglun" 
+    android:layout_height="40dp"
+    android:layout_width="0dp"
+    android:layout_margin="0dp"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:textSize="20dp"
+    android:text="意见"
+    />
+    </LinearLayout>
+    <GridView  
+        android:id="@+id/fragment_gridview_grid"  
+        android:layout_width="match_parent"  
+        android:layout_height="match_parent"  
+        android:listSelector="@android:color/transparent"  
+        android:cacheColorHint="@android:color/transparent"  
+        android:stretchMode="columnWidth"  
+        android:horizontalSpacing="20dip"  
+        android:gravity="center"  
+        android:verticalSpacing="20dip"  
+        android:columnWidth="90dip"  
+        android:numColumns="2" 
+        android:layout_below="@id/fragmnt_gridview_Head">  
+    </GridView> 
+    <!-- <me.maxwin.view.XListView 
+        android:id="@+id/xListView"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/Head"
+        ></me.maxwin.view.XListView> -->
+
+</RelativeLayout>
+<!-- <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    xmlns:tools="http://schemas.android.com/tools"  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent" >  
+  
+    <GridView  
+        android:id="@+id/fragment_gridview_grid"  
+        android:layout_width="match_parent"  
+        android:layout_height="match_parent"  
+        android:listSelector="@android:color/transparent"  
+        android:cacheColorHint="@android:color/transparent"  
+        android:stretchMode="columnWidth"  
+        android:horizontalSpacing="20dip"  
+        android:gravity="center"  
+        android:verticalSpacing="20dip"  
+        android:columnWidth="90dip"  
+        android:numColumns="2" >  
+    </GridView>  
+  
+</RelativeLayout> -->  

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/list_item_luntang"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" 
+    android:focusable="false"
+    >
+   <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical"
+       >
+       <RelativeLayout 
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           >
+
+           <TextView
+               android:id="@+id/list_item_luntang_name"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentLeft="true"
+               android:clickable="true"
+               android:enabled="true"
+               android:focusable="false"
+               android:singleLine="true"
+               android:text="说说昵称"
+               android:textColor="#000099"
+               android:textSize="20dp" />
+
+           <TextView 
+               android:id="@+id/list_item_luntang_time"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:singleLine="true"
+               android:layout_alignParentRight="true"
+               android:clickable="false"
+               android:text="今天18:25"
+               android:textColor="#cccccc"
+               android:textSize="15dp"
+               android:enabled="false"
+               android:focusable="false"
+               />
+       </RelativeLayout>
+       <TextView 
+           android:id="@+id/list_item_luntang_content"
+           android:layout_height="wrap_content"
+           android:layout_width="fill_parent"
+           android:layout_marginLeft="20dp"
+           android:text="当你要给你的网页添加颜色时,有时,你能够直接使用该颜色的名称,但是大多情况下,你只能使用十六进制代码来使用这些颜色。(浏览器能够理解这些代码。#)为了方便你去花瓣网, 图片社交领导者,帮你采集,发现网络上你喜欢的事物.你可以用它收集灵感,保存有用的素材,计划旅行,晒晒自己想要的东西."           
+           android:maxLines="5"
+           />
+       <!--  <TextView
+           android:id="@+id/list_item_luntang_seeAll" 
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           android:text="查看全文"
+           android:textColor="#000099"
+           /> -->
+       <ImageView 
+           android:id="@+id/list_item_luntang_ContentImg"
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           android:scaleType="fitXY"
+           android:layout_marginLeft="20dp"
+           />
+        <RelativeLayout 
+           android:layout_height="wrap_content"
+           android:layout_width="fill_parent"
+           >
+           <TextView 
+           
+                   android:id="@+id/list_item_luntang_pinglun"
+                   android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:text="评论"
+                   android:textSize="20dp"
+                   android:textColor="#000099"
+                   android:layout_marginRight="5dp"
+                   android:layout_alignParentRight="true"
+                   />
+   
+           <TextView 
+                   android:id="@+id/list_item_luntang_zan"
+                   android:layout_height="wrap_content"
+                   android:layout_width="wrap_content"
+                   android:text="赞"
+                   android:textSize="20dp"
+                   android:textColor="#000099"
+                   android:layout_marginRight="15dp"
+                   android:layout_toLeftOf="@id/list_item_luntang_pinglun"
+                   />            
+       </RelativeLayout>
+       <!-- <LinearLayout 
+           android:layout_height="wrap_content"
+           android:layout_width="fill_parent"
+           android:id="@+id/list_item_luntang_group"
+           android:orientation="vertical"
+           ></LinearLayout> -->
+       <!-- <TextView 
+           android:id="@+id/list_item_luntang_MeTalk"
+           android:layout_height="wrap_content"
+           android:layout_width="fill_parent"
+           android:hint="我也说一句"
+           android:enabled="true"
+           android:focusable="false"
+           android:clickable="true"
+           android:background="#cccccc"
+           
+           /> -->
+       <TextView 
+           android:layout_width="fill_parent"
+           android:layout_height="6dp"
+           /> 
+   </LinearLayout> 
+</RelativeLayout>

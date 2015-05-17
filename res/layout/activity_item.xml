@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:id="@+id/mySheduleLiner">
+   <sail.XmlAssist.HorizontalListView 
+       android:layout_width="match_parent"
+       android:layout_height="80dp"
+       android:id="@+id/SelecteWeek"
+       ></sail.XmlAssist.HorizontalListView>
+ </LinearLayout>
